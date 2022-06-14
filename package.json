@@ -1,0 +1,27 @@
+{
+  "name": "general_test",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000G\u0000e\u0000n\u0000e\u0000r\u0000a\u0000l\u0000T\u0000e\u0000s\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"nodemon index.js\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangak47/GeneralTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoangak47/GeneralTest/issues"
+  },
+  "homepage": "https://github.com/hoangak47/GeneralTest#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
